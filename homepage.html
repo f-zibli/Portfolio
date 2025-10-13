@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Meta Tag to make webpage responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio | Fathima Sahla</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Imported Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Jacquard+24&family=Pinyon+Script&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <link rel="stylesheet" href="style.css"> <!-- Stylesheet-->
+    <link rel="icon" href="assets\favicon.png"> <!-- Adding a favicon to the page -->
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-font nav-item nav-link" href="#" id="home-tab">Home</a>
+                        <a class="nav-font nav-item nav-link" href="#" id="about-tab">About</a>
+                        <a class="nav-font nav-item nav-link" href="#experience-container" id="experience-tab">Experience</a>
+                        <a class="nav-font nav-item nav-link" href="#skills_container" id="skills-tab">Skills</a>
+                        <a class="nav-font nav-item nav-link" href="#card-container" id="projects-tab">Projects</a>
+                        <a class="nav-font nav-item nav-link" href="#social-container" id="contact-tab">Contact</a>
+                        <a class="nav-font nav-item nav-link" href="CV - Fathima Sahla.pdf" download id="resume-tab">Resume</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container" id="intro-container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-1">
+                <button class="switch_button" id="previous_button" style="display: none;"><</button>
+            </div>
+            <div class="col-12 col-lg-5">
+                <img src="assets/profile_picture.png" class="img-fluid" id="profile_picture" alt="My Profile Picture">
+            </div>
+            <div class="col-12 col-lg-5">
+                <div id="intro">
+                    <p id="my_name_intro">Hi! My Name Is...</p>
+                    <h1 id="name">Fathima Sahla</h1>
+                    <p id="bio"></p> <!-- Placeholder For Bio -->
+                </div>
+            </div>
+            <div class="col col-lg-1">
+                <button class="switch_button" id="next_button">More About Me →</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Relevant Experience Container -->
+    <div class="container" id="experience-container"> 
+        <div class="row align-items-center"> 
+            <p class="sub-heading">Relevant Experience ⋆˚࿔</p>
+            <div class="col-12 col-lg-6 exp-block">
+                <img src="assets/e&_logo.jpg" class="img-fluid" id="eand-logo" alt="Eand Company Logo">
+                <div class="exp-info">
+                    <p class="exp-heading">e& by Etisalat</p>
+                    <hr>
+                    <p>Trainee</p>
+                    <p>Data & AI Department</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 exp-block">
+                <img src="assets/schneider_logo.png" class="img-fluid" id="schneider_logo" alt="Schneider Logo">
+                <div class="exp-info">
+                    <p class="exp-heading">Schneider Electric</p>
+                    <hr>
+                    <p>Mentee</p>
+                    <p>FEM in STEM Mentorship</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills, Hobbies, Languages Container -->
+    <div class="container" id="skills_container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-6 order-1">
+                <p class="sub-heading">Languages .°˖✧</p>
+                <ul id="skill-items">
+                    <li>Python<div class="progress"><div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div></div></li>
+                    <li>C++<div class="progress"><div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div></div></li>
+                    <li>JavaScript<div class="progress"><div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div></div></li>
+                    <li>Java<div class="progress"><div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div></div></li>
+                    <li>HTML<div class="progress"><div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div></div></li>
+                    <li>CSS<div class="progress"><div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div></div></li>
+                    <li>SQL<div class="progress"><div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div></div></li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-6 order-2">
+                <p class="sub-heading">Skills .°˖✧</p>
+                <ul id="skill-items">
+                    <li>🎨 Design & Illustration: Canva, Krita, Figma </li>
+                    <li>📣 Presentation & Pitching Skills </li>
+                    <li>🔎 Research Skills </li>
+                    <li>💡 Problem-Solving & Analytical Thinking </li>
+                    <li>🤝 Team Collaboration & Taking Initiative </li>
+                </ul>
+                <p class="sub-heading">Technical Skills .°˖✧</p>
+                <ul id="skill-items">
+                    <li> Operating Systems </li>
+                    <li> Data Structures & Algorithms </li>
+                    <li> Assembly Language and Computer Systems </li>
+                </ul>
+                <p class="sub-heading">Hobbies .°˖✧</p>
+                <ul id="hobby-items">
+                    <li> Crocheting </li>
+                    <li> Travelling </li>
+                    <li> Painting</li>
+                    <li> Coding </li>
+                    <li> Singing </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Projects Container -->
+    <div class="container" id="card-container">
+        <p class="sub-heading">Projects ˚₊✩‧₊</p>
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top card-image" src="assets\chatbot-image.png" alt="Chatbot Icon">
+                        <hr>
+                        <h5 class="card-title">AI-Based Recommendation Chatbot Interface</h5>
+                        <p class="card-text">Designed the interface of a chatbot for a web service that provided recommendations to users based on their survey responses.</p>
+                        <a href="https://github.com/f-zibli/Chatbot-Code" target="_blank" class="btn btn-primary card_button">Link to Github Repository</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top card-image" src="assets/weather-image.png" alt="Weather-Related Icon">
+                        <hr>
+                        <h5 class="card-title">Weather Application</h5>
+                        <p class="card-text">Utilizes WeatherAPI and Web Development Languages (HTML, CSS, JS) to display the weather of an entered region.</p>
+                        <a href="https://github.com/f-zibli/Weather-App" target="_blank" class="btn btn-primary card_button">Link to Github Repository</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top card-image" src="assets\calories-image.png" alt="Calorie-Related Icon">
+                        <hr>
+                        <h5 class="card-title">Calorie Calculator</h5>
+                        <p class="card-text">Calculates a user's calorie intake from their inputted food intake and returns if they are in a deficit or not. Utilizes HTML, CSS and JS.</p>
+                        <a href="https://github.com/f-zibli/CalorieCounter" target="_blank" class="btn btn-primary card_button">Link to Github Repository</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="CV - Fathima Sahla.pdf" download><button class="section_button" id="resume_button">Download Resume</button></a> <!-- CV file is attached in zip folder for reference on how the button works-->
+    <footer>
+        <div class="container button_container" id="social-container">
+            <p class="sub-heading">Socials |</p>
+            <div class="row align-items-center oe">
+                <div class="col-12 col-lg-3">
+                    <a href="https://www.instagram.com/_sxxla_/?next=%2F" target="_blank"><img src="assets\instagram.png" class="img-fluid social_icon" alt="Instagram"></a>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <a href="https://www.linkedin.com/in/fathima-sahla-z-642921281/" target="_blank"><img src="assets\linkedin.png" class="img-fluid social_icon" alt="LinkedIn"></a>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <a href="mailto:g00101188@aus.edu"><img src="assets\gmail.png" class="img-fluid social_icon" alt="Mail Me"></a>
+                </div>
+                <div class="col-12 col-lg-12">
+                    <p id="copyright">Created by Fathima Sahla <3 | &copy 2025</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
